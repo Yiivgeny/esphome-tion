@@ -24,6 +24,7 @@ ble_client:
   id: tion_ble_client
 
 ota:
+  platform: esphome
   on_begin:
     then:
       lambda: |-
